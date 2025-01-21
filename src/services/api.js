@@ -1,6 +1,6 @@
 import axios from "axios"
 
-const API_URL = "https://crypto-currency-bot-server.vercel.app/api"
+const API_URL = "http://localhost:5000/api"
 
 export const fetchCryptoPrices = async () => {
   try {
