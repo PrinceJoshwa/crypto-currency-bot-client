@@ -36,7 +36,6 @@ const API_URL = "https://crypto-currency-bot-server.vercel.app/api"
 export const fetchCryptoPrices = async () => {
   try {
     const response = await axios.get(`${API_URL}/crypto/prices`, {
-      withCredentials: true,
       headers: {
         "Content-Type": "application/json",
       },
